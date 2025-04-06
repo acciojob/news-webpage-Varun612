@@ -1,1 +1,49 @@
-/*  your css code here. If applicable */
+body {
+	background-color: #f5f5f5;
+}
+.header {
+	color: white;
+	text-align: center;
+	padding:5px 0px;
+	background-color: #011e29;
+}
+.container {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	gap: 5px;
+}
+.latest-news-section {
+	background-color: white;
+	padding:20px;
+	width:20%;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.centerDiv {
+	width:60%;
+	background-color: white;
+	padding:5px;
+	text-align: center;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.pictorial-news-section {
+	display:flex;
+	flex-direction:column;
+	background-color: white;
+	border-radius: 10px;
+	width:20%;
+	align-items: center;
+	gap:10px;
+	text-align:center;
+	padding:5px;
+}
+#image {
+	height:90%;
+	width:90%;
+}
